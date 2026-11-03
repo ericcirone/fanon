@@ -66,7 +66,8 @@ xcrun notarytool store-credentials fanon --apple-id <apple id> --team-id <team i
 
 ## Install
 
-1. Download `Fanon-<version>.dmg` from the latest GitHub release (it's signed and notarized by Apple), open it,
+1. Install with Homebrew, `brew install --cask ericcirone/tap/fanon` (this also puts the `fanon` command on
+   your PATH), or download `Fanon-<version>.dmg` from the latest GitHub release (it's signed and notarized by Apple), open it,
    and drag **Fanon** and **Fanon Bridge** to Applications. If you built it yourself, copy them from `dist/`
    instead. Open Fanon Bridge. A scanner icon appears in the menu bar.
 2. Allow **Local Network** access when macOS asks. The bridge needs it to reach the printer.
