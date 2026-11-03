@@ -1,0 +1,13 @@
+.build/
+dist/
+.swiftpm/
+.DS_Store
+
+# Stray scans and test output at the top level (they can contain personal documents)
+/*.png
+/*.jpg
+/*.jpeg
+/*.pdf
+/*.tif
+/*.tiff
+.vscode/
